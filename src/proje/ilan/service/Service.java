@@ -113,6 +113,26 @@ public abstract class Service<T> {
         }
     }
 
+    /*public void sil(T t){
+        if(t instanceof  Ilan){
+            Ilan ilan = (Ilan) t;
+
+            if(DBUtil.ILAN_LISTESI != null) {
+                DBUtil.ILAN_LISTESI.remove(ilan);
+                logYaz("İlan eklendi!",ilan.toString());
+            }
+            else{
+                logYaz("İlan listesi boş!");
+            }
+
+        }
+        else if (t instanceof  Kullanici){
+
+
+            
+        }
+    }*/
+
     public void methodYaz(String methodAdi)
     {
         System.out.println(methodAdi+" çağrıldı!");
